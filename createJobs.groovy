@@ -10,9 +10,9 @@ pipelineJob('theme-park-job') {
     definition {
         cpsScm {
             scm {
-                git {
+                git {2
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example.git'
+                        url 'https://github.com/Jingshuai-cloud/spring-boot-api-example.git'
                     }
                     branch 'master'
                 }
